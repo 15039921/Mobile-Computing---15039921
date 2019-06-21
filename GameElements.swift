@@ -1,9 +1,10 @@
 //
 //  GameElements.swift
+//  
 //  game_Project
 //
-//  Created by SHIVAM PATEL on (26/12/2018).
-//  Copyright © 2019 SHIVAM. All rights reserved.
+//  Created by Shivam  patel on (17/06/2019).
+//  Copyright © 2019 Shivam . All rights reserved.
 //
 import SpriteKit
 

@@ -1,8 +1,8 @@
 //  AppDelegate.swift
 //  game_Project
 //
-//  Created by SHIVAM PATEL on (26/12/2018).
-//  Copyright © 2019 SHIVAM. All rights reserved.
+//  Created by Shivam  patel on (17/06/2019).
+//  Copyright © 2019 Shivam . All rights reserved.
 //
 
 import UIKit
@@ -15,6 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        if UserDefaults.standard.value(forKey: "name") != nil
+        {
+           let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "play")
+            self.window!.rootViewController = vc
+            self.window!.makeKeyAndVisible()
+        }
+        
         return true
     }
 
