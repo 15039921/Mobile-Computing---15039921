@@ -2,8 +2,8 @@
 //  ScoreViewController.swift
 //  game_Project
 //
-//  Created by SAM on 04/01/2019.
-//  Copyright © 2019 SAM. All rights reserved.
+//  Created by Shivam  patel on (17/06/2019).
+//  Copyright © 2019 Shivam . All rights reserved.
 //
 
 import UIKit
